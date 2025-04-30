@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+# Allow caps lock key to switch between latin and non-latin
+defaults write 'Apple Global Domain' TISRomanSwitchState -int 1
