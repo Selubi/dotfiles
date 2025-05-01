@@ -2,3 +2,22 @@
 
 # Allow caps lock key to switch between latin and non-latin
 defaults write 'Apple Global Domain' TISRomanSwitchState -int 1
+
+
+
+###############################################################################
+# Control Center                                                                    #
+###############################################################################
+
+# Show bluetooth in menu bar
+defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -int 1
+
+###############################################################################
+# Dock, Dashboard, and hot corners                                            #
+###############################################################################
+
+# Auto hide dock
+defaults write com.apple.dock autohide -int 1
+
+# Hide suggested and recent apps
+defaults write com.apple.dock show-recents -int 0
