@@ -6,7 +6,7 @@ defaults write 'Apple Global Domain' TISRomanSwitchState -int 1
 
 
 ###############################################################################
-# Control Center                                                                    #
+# Control Center                                                              #
 ###############################################################################
 
 # Show bluetooth in menu bar
@@ -21,3 +21,6 @@ defaults write com.apple.dock autohide -int 1
 
 # Hide suggested and recent apps
 defaults write com.apple.dock show-recents -int 0
+
+# Minimize to application
+defaults write com.apple.dock minimize-to-application -int 1
