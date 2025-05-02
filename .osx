@@ -4,6 +4,14 @@
 # Other good resources https://macos-defaults.com/
 # But there are a lot of very opinionated settings that I changed.
 
+# If you find something that exists on the UI menu but not here
+# you can find out what domain and key it is by doing this
+# 1. `defaults read > .defaults.tmp` (Save your current settings before the change)
+# 2. Change the setting in the UI
+# 3. `diff .defaults.tmp <(defaults read)` See what key actually corresponds to your change.
+# 4. Use `defaults find <field_name_from_step_3>` to find out which defaults domain it belongs to
+# Don't forget to delete .defaults.tmp after you're done.
+
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
